@@ -1,20 +1,88 @@
-section{
-    height: 500vh;
-    background-image:src="/C:\Users\Didi\Desktop\job/p1.jpg";
+.transparent{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 50px;
+    
+    
+    
+}
+.logo{
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+}
+body{
+    background-image: url(p1.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: top;
+ 
+}
+.logo1{
+    position: absolute;
+    top: 20px;
+    left: 270px;
+}
+.login{
+    position: absolute;
+    top: 18px;
+    right: 110px;
+}
+.sign-up{
+    position: absolute;
+    top: 13px;
+    right: 10px;
+    border: solid white;
+    border-radius: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: white;
+}
+a.link1{
+    color: white;
+}
+a.link2{
+    color: black;
+}
+h1.inspiration{
+    color: white;
+    position: absolute;
+    font-size: 68px;
+    font-family: 'Trebuchet MS';
+    top: 230px;
+    right: 300px;
+
+}
+p.sentence{
+    color: white;
+    position: absolute;
+    font-size: 35px;
+    font-family: 'Trebuchet MS';
+    top: 330px;
+    left: 240px;
+}
+.start{
+    color: black;
+    border: solid white;
+    position: relative;
+    top: 50px;
+    border-radius: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
 } 
-nav{
-        background-color: white;
-        margin: 1rem;
+.foot{
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    top: 0px;
+    width: 100%;
+    display: flex;
 }
-/* #logo{
-        display:flex;
-        align-items: center;
-} */
-form{
-    display:flex;
-    align-items: center;
-}
-#part2{
-    display:flex;
-    align-items: left;
+div.below{
+    color: white;
+    gap: 20px;
 }
